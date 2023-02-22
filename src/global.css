@@ -1,0 +1,46 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: 0;
+    list-style: none;
+}  
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap');
+
+
+:root {
+    --color-blend-purple: #E975A8;
+    --color-white: #ffffff;
+    --color-black: #222222;
+    --color-dark: #BBBBBB;
+    --color-blue: #726CF8;
+    --color-black2: #333333;
+    --color-dark-color: #282828;
+}
+
+
+ body {
+    background-color :var(--color-black);
+} 
+
+
+::-webkit-scrollbar {
+    width: 15px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: purple;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #E975A8;
+    border-radius: 1rem;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #E975A8;
+}

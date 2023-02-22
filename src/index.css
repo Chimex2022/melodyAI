@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    portfolio_item-image {
+        @apply mt-5 
+    }
+
+    
+}
